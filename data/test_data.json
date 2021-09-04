@@ -1,0 +1,27 @@
+{
+    "placeholder": "placeholder",
+    "basic_url": "https://petstore.swagger.io/v2/",
+    "inventory": "store/inventory",
+    "id": "pet/{0}",
+    "status": "pet/findByStatus?status={0}",
+    "pet": "pet",
+    "body":
+    {
+          "id": 0,
+          "category": {
+            "id": 0,
+            "name": "string"
+          },
+          "name": "string",
+          "photoUrls": [
+            "string"
+          ],
+          "tags": [
+            {
+              "id": 0,
+              "name": "string"
+            }
+          ],
+          "status": "string"
+    }
+}
